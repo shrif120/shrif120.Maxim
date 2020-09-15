@@ -1,0 +1,1138 @@
+                                                * {
+                                                    box-sizing: border-box;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                }
+                                                
+                                                body {
+                                                    font-family: 'Open Sans', sans-serif;
+                                                }
+                                                /* start header */
+                                                
+                                                #maxim-header {
+                                                    background-image: url("images/hero-bg.jpg");
+                                                    height: 100vh;
+                                                    background-position: center center;
+                                                    background-attachment: fixed;
+                                                    background-size: cover;
+                                                }
+                                                
+                                                #maxim-header h1 {
+                                                    color: #ffffff;
+                                                    font-size: 3rem;
+                                                    font-family: 'Raleway', sans-serif;
+                                                    font-weight: 700;
+                                                    line-height: 56px;
+                                                    margin-top: 20px;
+                                                }
+                                                
+                                                #maxim-header h2 {
+                                                    color: rgba(255, 255, 255, 0.7);
+                                                    font-family: 'Raleway', sans-serif;
+                                                    font-size: 24px;
+                                                    margin-bottom: 35px;
+                                                }
+                                                
+                                                #maxim-header a {
+                                                    color: #ffffff;
+                                                    padding: 10px 30px;
+                                                    border: solid 2px #ffffff;
+                                                    font-family: 'Raleway', sans-serif;
+                                                    width: 15%;
+                                                    text-align: center;
+                                                    text-decoration: none;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                #maxim-header a:hover {
+                                                    background-color: #1bac91;
+                                                    border: solid 2px #1bac91;
+                                                }
+                                                /* end header */
+                                                /* start nav */
+                                                
+                                                .navbar {
+                                                    font-family: 'Open Sans', sans-serif;
+                                                    background-color: #000000;
+                                                    position: fixed;
+                                                    z-index: 3;
+                                                }
+                                                
+                                                .navbar-brand {
+                                                    font-size: 2rem;
+                                                    font-weight: 800;
+                                                    letter-spacing: 2px;
+                                                }
+                                                
+                                                .layer {
+                                                    height: 100%;
+                                                    width: 100%;
+                                                    background-color: rgba(0, 0, 0, 0.4);
+                                                }
+                                                
+                                                .home-link::before {
+                                                    content: "";
+                                                    width: 45px;
+                                                    height: 1px;
+                                                    position: absolute;
+                                                    top: 100%;
+                                                    left: 10%;
+                                                    background-color: #1bac91;
+                                                }
+                                                
+                                                .about-link::before {
+                                                    content: "";
+                                                    width: 0px;
+                                                    height: 1px;
+                                                    position: absolute;
+                                                    top: 100%;
+                                                    left: 10%;
+                                                    background-color: #1bac91;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .about-link:hover.about-link::before {
+                                                    width: 80px;
+                                                }
+                                                
+                                                .services-link::before {
+                                                    content: "";
+                                                    width: 0px;
+                                                    height: 1px;
+                                                    position: absolute;
+                                                    top: 100%;
+                                                    left: 10%;
+                                                    background-color: #1bac91;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .services-link:hover.services-link::before {
+                                                    width: 80px;
+                                                }
+                                                
+                                                .portofolio-link::before {
+                                                    content: "";
+                                                    width: 0px;
+                                                    height: 1px;
+                                                    position: absolute;
+                                                    top: 100%;
+                                                    left: 10%;
+                                                    background-color: #1bac91;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .portofolio-link:hover.portofolio-link::before {
+                                                    width: 80px;
+                                                }
+                                                
+                                                .team-link::before {
+                                                    content: "";
+                                                    width: 0px;
+                                                    height: 1px;
+                                                    position: absolute;
+                                                    top: 100%;
+                                                    left: 10%;
+                                                    background-color: #1bac91;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .team-link:hover.team-link::before {
+                                                    width: 60px;
+                                                }
+                                                
+                                                .dropdown-link::before {
+                                                    content: "";
+                                                    width: 0px;
+                                                    height: 1px;
+                                                    position: absolute;
+                                                    top: 100%;
+                                                    left: 10%;
+                                                    background-color: #1bac91;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .dropdown-link:hover.dropdown-link::before {
+                                                    width: 100px;
+                                                }
+                                                
+                                                .contact-link::before {
+                                                    content: "";
+                                                    width: 0px;
+                                                    height: 1px;
+                                                    position: absolute;
+                                                    top: 100%;
+                                                    left: 10%;
+                                                    background-color: #1bac91;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .contact-link:hover.contact-link::before {
+                                                    width: 90px;
+                                                }
+                                                
+                                                @media(max-width: 991px) {
+                                                    .layer {
+                                                        text-align: center;
+                                                    }
+                                                    .home-link::before {
+                                                        left: 0;
+                                                    }
+                                                    .home-link {
+                                                        width: 15%;
+                                                    }
+                                                    .about-link {
+                                                        width: 27%;
+                                                    }
+                                                    .services-link {
+                                                        width: 20%;
+                                                    }
+                                                    .portofolio-link {
+                                                        width: 20%;
+                                                    }
+                                                    .team-link {
+                                                        width: 15%;
+                                                    }
+                                                    .dropdown-link-link {
+                                                        width: 10%;
+                                                    }
+                                                    .contact-link {
+                                                        width: 35%;
+                                                    }
+                                                    .about-link::before {
+                                                        left: 0;
+                                                    }
+                                                    .services-link::before {
+                                                        left: 0;
+                                                    }
+                                                    .portofolio-link::before {
+                                                        left: 0;
+                                                    }
+                                                    .team-link::before {
+                                                        left: 0;
+                                                    }
+                                                    .dropdown-link::before {
+                                                        left: 0;
+                                                    }
+                                                    .contact-link::before {
+                                                        left: 0;
+                                                    }
+                                                    #maxim-header h1 {
+                                                        font-size: 1.8rem;
+                                                    }
+                                                    #maxim-header h2 {
+                                                        font-size: 15px;
+                                                        line-height: 1.5rem;
+                                                    }
+                                                }
+                                                /* end nav */
+                                                /* start AboutUS*/
+                                                
+                                                .icon-caption {
+                                                    overflow: auto;
+                                                }
+                                                
+                                                .icon-caption i {
+                                                    float: left;
+                                                    font-size: 40px;
+                                                    color: #1bac91;
+                                                    margin-right: 1.5rem;
+                                                }
+                                                
+                                                .icon-caption p {
+                                                    float: left;
+                                                }
+                                                
+                                                .icon-caption h4 {
+                                                    float: left;
+                                                }
+                                                
+                                                .h-2 {
+                                                    font-family: 'Open Sans', sans-serif;
+                                                }
+                                                
+                                                .h-4 {
+                                                    font-family: 'Raleway', sans-serif;
+                                                }
+                                                
+                                                @media(max-width: 991px) {
+                                                    .h-2 {
+                                                        margin-top: 40px;
+                                                        font-size: 1.5rem;
+                                                    }
+                                                    .h-4 {
+                                                        font-size: 1.3rem;
+                                                    }
+                                                }
+                                                /* start AboutUs-2*/
+                                                
+                                                #AboutUs-2 {
+                                                    background-color: #f2f9f8;
+                                                }
+                                                
+                                                #AboutUs-2 span {
+                                                    font-size: 25px;
+                                                    color: #1bac91;
+                                                }
+                                                
+                                                #AboutUs-2 h4 {
+                                                    font-size: 28px;
+                                                    font-weight: 400;
+                                                    color: #21413c;
+                                                    margin: 20px 0;
+                                                }
+                                                
+                                                #AboutUs-2 p {
+                                                    font-size: 15px;
+                                                    color: #aaaaaa;
+                                                    width: 75%;
+                                                }
+                                                
+                                                @media(max-width: 991px) {
+                                                    .caption-2 {
+                                                        border-bottom: thin;
+                                                        border-left: none !important;
+                                                        border-right: none !important;
+                                                        padding-left: 0 !important;
+                                                    }
+                                                    .caption-3 {
+                                                        padding-left: 0 !important;
+                                                    }
+                                                    .caption-4 {
+                                                        border-bottom: solid 0.5px rgba(216, 208, 207, 0.8) !important;
+                                                    }
+                                                    .caption-4 h4 {
+                                                        font-size: 25px!important;
+                                                    }
+                                                    .caption-5 {
+                                                        border-bottom: solid 0.5px rgba(216, 208, 207, 0.8) !important;
+                                                        border-left: none !important;
+                                                        border-right: none !important;
+                                                        padding-left: 0 !important;
+                                                    }
+                                                    .caption-6 {
+                                                        padding-left: 0 !important;
+                                                    }
+                                                }
+                                                /* end AboutUs-2*/
+                                                /* start AboutUS-3 */
+                                                
+                                                #AboutUs-3 h4 {
+                                                    font-size: 18px;
+                                                    font-weight: 600;
+                                                    color: #21413c;
+                                                    font-family: 'Raleway', sans-serif;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                #AboutUs-3 p {
+                                                    font-size: 14px;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .h4-first {
+                                                    color: #1bac91 !important;
+                                                }
+                                                
+                                                .nav-link:hover h4 {
+                                                    color: #1bac91 !important;
+                                                }
+                                                
+                                                .nav-link:hover p {
+                                                    color: #1bac91 !important;
+                                                }
+                                                
+                                                .nav-link.active {
+                                                    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.12);
+                                                }
+                                                
+                                                .p-width {
+                                                    width: 90%;
+                                                }
+                                                
+                                                @media(max-width: 991px) {
+                                                    #AboutUs-3 img {
+                                                        margin-top: 3rem;
+                                                    }
+                                                }
+                                                /* end AboutUS-3 */
+                                                /* start Services-1 */
+                                                
+                                                #Services {
+                                                    background-color: #f2f9f8
+                                                }
+                                                
+                                                #Services h2 {
+                                                    font-size: 36px;
+                                                    font-weight: 300;
+                                                    margin-bottom: 20px;
+                                                    color: #21413c;
+                                                    font-family: 'Raleway', sans-serif;
+                                                }
+                                                
+                                                #Services p {
+                                                    color: #444444;
+                                                }
+                                                
+                                                .Services-1 {
+                                                    background-color: #ffffff;
+                                                    padding: 20px 30px;
+                                                    border-radius: 15px;
+                                                    -webkit-border-radius: 15px;
+                                                    -moz-border-radius: 15px;
+                                                    -ms-border-radius: 15px;
+                                                    -o-border-radius: 15px;
+                                                    border-bottom: solid 3px #ffffff;
+                                                }
+                                                
+                                                .Services-1 a {
+                                                    text-decoration: none;
+                                                    color: black;
+                                                    font-size: 18px;
+                                                    font-weight: 800;
+                                                }
+                                                
+                                                .Services-p {
+                                                    font-size: 15px;
+                                                    line-height: 28px;
+                                                }
+                                                
+                                                .Services-icon i {
+                                                    font-size: 40px;
+                                                    color: #ff689b;
+                                                    line-height: 1;
+                                                    margin-bottom: 10px;
+                                                    margin-top: 10px;
+                                                }
+                                                
+                                                .Services-hover {
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .Services-hover:hover {
+                                                    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.12);
+                                                }
+                                                
+                                                .Services-icon .i-2 {
+                                                    color: #3fcdc7;
+                                                }
+                                                
+                                                .Services-icon .i-3 {
+                                                    color: #41cf2e;
+                                                }
+                                                
+                                                .Services-icon .i-4 {
+                                                    color: #2282ff;
+                                                }
+                                                /* end Services-1 */
+                                                /* start Services-2 */
+                                                
+                                                #Services-2 h2 {
+                                                    font-size: 36px;
+                                                    font-weight: 300;
+                                                    margin-bottom: 20px;
+                                                    color: #21413c;
+                                                    font-family: 'Raleway', sans-serif;
+                                                }
+                                                
+                                                #Services-2 p {
+                                                    color: #444444;
+                                                }
+                                                
+                                                .caroousel-Caption {
+                                                    background-color: #eff7f6;
+                                                    padding-top: 30px;
+                                                    padding-bottom: 20px;
+                                                    padding-left: 20px;
+                                                    padding-right: 20px;
+                                                    height: 65%;
+                                                }
+                                                
+                                                .caroousel-Caption-P {
+                                                    font-style: italic;
+                                                    line-height: 1.5rem;
+                                                }
+                                                
+                                                .caroousel-Caption i {
+                                                    font-size: 20px;
+                                                    padding: 0 8px;
+                                                    color: #8debe0;
+                                                }
+                                                
+                                                .caroousel-Caption img {
+                                                    width: 90px;
+                                                    border-radius: 50%;
+                                                    border: 6px solid #fff;
+                                                    -webkit-border-radius: 50%;
+                                                    -moz-border-radius: 50%;
+                                                    -ms-border-radius: 50%;
+                                                    -o-border-radius: 50%;
+                                                }
+                                                
+                                                .caroousel-Caption h3 {
+                                                    font-size: 18px;
+                                                    font-weight: bold;
+                                                    color: #111;
+                                                }
+                                                
+                                                .caroousel-Caption h4 {
+                                                    font-size: 14px;
+                                                    color: #999;
+                                                }
+                                                
+                                                .carousel {
+                                                    padding-bottom: 2rem;
+                                                    text-align: center;
+                                                }
+                                                
+                                                .carousel li {
+                                                    width: 12px;
+                                                    height: 12px;
+                                                    background-color: #1bac91;
+                                                    border-radius: 50%;
+                                                    -webkit-border-radius: 50%;
+                                                    -moz-border-radius: 50%;
+                                                    -ms-border-radius: 50%;
+                                                    -o-border-radius: 50%;
+                                                }
+                                                /*  end Services-2   */
+                                                /* start Portofolio */
+                                                
+                                                #Portofolio {
+                                                    background-color: #eff7f6;
+                                                }
+                                                
+                                                .Portofolio-Caption h2 {
+                                                    font-size: 36px;
+                                                    font-weight: 300;
+                                                    margin-bottom: 20px;
+                                                    color: #21413c;
+                                                    font-family: 'Raleway', sans-serif;
+                                                }
+                                                
+                                                .Portofolio-Caption p {
+                                                    color: #444444;
+                                                }
+                                                
+                                                .Portofolio-Links {
+                                                    background-color: #ffffff;
+                                                    width: 25%;
+                                                    margin: auto;
+                                                    padding: 12px 0px;
+                                                    border-radius: 30px;
+                                                    -webkit-border-radius: 30px;
+                                                    -moz-border-radius: 30px;
+                                                    -ms-border-radius: 30px;
+                                                    -o-border-radius: 30px;
+                                                    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+                                                }
+                                                
+                                                .Portofolio-Links a {
+                                                    text-decoration: none;
+                                                    color: black;
+                                                    transition: color 0.5s;
+                                                    -webkit-transition: color 0.5s;
+                                                    -moz-transition: color 0.5s;
+                                                    -ms-transition: color 0.5s;
+                                                    -o-transition: color 0.5s;
+                                                    font-weight: 600;
+                                                    font-size: 14px;
+                                                }
+                                                
+                                                .Portofolio-Links a span {
+                                                    color: #1bac91;
+                                                }
+                                                
+                                                .Portofolio-Links a:hover {
+                                                    color: #1bac91;
+                                                }
+                                                
+                                                .Portofolio-Photo-Caption {
+                                                    top: 25%;
+                                                    background-color: rgba(0, 0, 0, 0.5);
+                                                    opacity: 0;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                    width: 50%;
+                                                    height: 50%;
+                                                }
+                                                
+                                                .Caption-Links i {
+                                                    transition: color 0.5s;
+                                                    -webkit-transition: color 0.5s;
+                                                    -moz-transition: color 0.5s;
+                                                    -ms-transition: color 0.5s;
+                                                    -o-transition: color 0.5s;
+                                                }
+                                                
+                                                .Caption-Links a:hover i {
+                                                    color: #1bac91 !important;
+                                                }
+                                                
+                                                .Portofolio-Photo-Caption h4 {
+                                                    font-size: 20px;
+                                                    font-weight: 600;
+                                                    font-family: 'Raleway', sans-serif;
+                                                }
+                                                
+                                                .Portofolio-Photo-Caption p {
+                                                    font-size: 14px;
+                                                    text-transform: uppercase;
+                                                }
+                                                
+                                                .Portofolio-Photo-Caption::before {
+                                                    content: "";
+                                                    position: absolute;
+                                                    width: 48px;
+                                                    height: 48px;
+                                                    top: 35px;
+                                                    left: 35px;
+                                                    border-top: 3px solid #fff;
+                                                    border-left: 3px solid #fff;
+                                                    opacity: 0;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .Portofolio-Photo-Caption::after {
+                                                    content: "";
+                                                    position: absolute;
+                                                    width: 48px;
+                                                    height: 48px;
+                                                    right: 35px;
+                                                    bottom: 35px;
+                                                    border-bottom: 3px solid #fff;
+                                                    border-right: 3px solid #fff;
+                                                    opacity: 0;
+                                                    transition: all 0.5s;
+                                                    -webkit-transition: all 0.5s;
+                                                    -moz-transition: all 0.5s;
+                                                    -ms-transition: all 0.5s;
+                                                    -o-transition: all 0.5s;
+                                                }
+                                                
+                                                .Portofolio-Photo:hover .Portofolio-Photo-Caption::before {
+                                                    opacity: 1;
+                                                    top: 16px;
+                                                    left: 16px;
+                                                }
+                                                
+                                                .Portofolio-Photo:hover .Portofolio-Photo-Caption::after {
+                                                    opacity: 1;
+                                                    right: 16px;
+                                                    bottom: 16px;
+                                                }
+                                                
+                                                .Portofolio-Photo:hover .Portofolio-Photo-Caption {
+                                                    opacity: 1;
+                                                    width: 100% !important;
+                                                    height: 100% !important;
+                                                    top: 0;
+                                                }
+                                                
+                                                .Portofolio-Photo {
+                                                    margin-top: 40px;
+                                                }
+                                                
+                                                @media (max-width: 575.98px) {
+                                                    .Portofolio-Links {
+                                                        width: 80%;
+                                                    }
+                                                }
+                                                
+                                                @media (min-width: 576px) and (max-width: 767.98px) {
+                                                    .Portofolio-Links {
+                                                        width: 80%;
+                                                    }
+                                                }
+                                                
+                                                @media (min-width: 768px) and (max-width: 991.98px) {
+                                                    .Portofolio-Links {
+                                                        width: 50%;
+                                                    }
+                                                }
+                                                /* end Portofolio */
+                                                /* start Team */
+                                                
+                                                .Team-Caption {
+                                                    margin-top: 16px;
+                                                }
+                                                
+                                                .Team-Caption h2 {
+                                                    font-size: 36px;
+                                                    font-weight: 300;
+                                                    margin-bottom: 20px;
+                                                    color: #21413c;
+                                                    font-family: 'Raleway', sans-serif;
+                                                }
+                                                
+                                                .Team-Caption p {
+                                                    color: #444444;
+                                                }
+                                                
+                                                .Team-bottom h4 {
+                                                    font-weight: 700;
+                                                    margin-bottom: 2px;
+                                                    font-size: 18px;
+                                                    color: #fff;
+                                                    font-family: 'Raleway', sans-serif;
+                                                }
+                                                
+                                                .Team-bottom span {
+                                                    font-style: italic;
+                                                    font-size: 13px;
+                                                    color: #fff;
+                                                }
+                                                
+                                                .Team-bottom {
+                                                    top: 100%;
+                                                    opacity: 0;
+                                                    transition: all 0.3s;
+                                                    -webkit-transition: all 0.3s;
+                                                    -moz-transition: all 0.3s;
+                                                    -ms-transition: all 0.3s;
+                                                    -o-transition: all 0.3s;
+                                                    z-index: 1;
+                                                }
+                                                
+                                                .Team-Caption:hover .Team-bottom {
+                                                    opacity: 1;
+                                                    top: 75%;
+                                                }
+                                                
+                                                .Team-social {
+                                                    background-color: rgba(0, 0, 0, 0.5);
+                                                    top: 0;
+                                                    right: 100%;
+                                                    text-align: right;
+                                                    opacity: 0;
+                                                    transition: all 0.3s;
+                                                    -webkit-transition: all 0.3s;
+                                                    -moz-transition: all 0.3s;
+                                                    -ms-transition: all 0.3s;
+                                                    -o-transition: all 0.3s;
+                                                    z-index: 1;
+                                                }
+                                                
+                                                .Team-social i {
+                                                    font-size: 18px;
+                                                    font-size: 18px;
+                                                    color: #ffffff;
+                                                    display: block;
+                                                    margin: 25px 25px 0px 0px;
+                                                    transition: color 0.3s;
+                                                    -webkit-transition: color 0.3s;
+                                                    -moz-transition: color 0.3s;
+                                                    -ms-transition: color 0.3s;
+                                                    -o-transition: color 0.3s;
+                                                }
+                                                
+                                                .Team-Caption:hover .Team-social {
+                                                    opacity: 1;
+                                                    right: 82%;
+                                                }
+                                                
+                                                .layers {
+                                                    top: 0;
+                                                    opacity: 0;
+                                                    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+                                                    transition: all 0.3s;
+                                                    -webkit-transition: all 0.3s;
+                                                    -moz-transition: all 0.3s;
+                                                    -ms-transition: all 0.3s;
+                                                    -o-transition: all 0.3s;
+                                                }
+                                                
+                                                .Team-Caption:hover .layers {
+                                                    opacity: 1;
+                                                }
+                                                
+                                                .Team-social a {
+                                                    text-decoration: none;
+                                                }
+                                                
+                                                .Team-social a:hover i {
+                                                    color: #1bac91;
+                                                }
+                                                
+                                                .i-special {
+                                                    padding-right: 1.8px;
+                                                }
+                                                
+                                                @media (max-width: 575.98px) {
+                                                    .Team-Caption:hover .Team-social {
+                                                        opacity: 1;
+                                                        right: 86% !important;
+                                                    }
+                                                }
+                                                
+                                                @media (min-width: 576px) and (max-width: 767.98px) {
+                                                    .Team-Caption:hover .Team-social {
+                                                        opacity: 1;
+                                                        right: 80% !important;
+                                                    }
+                                                }
+                                                
+                                                @media (min-width: 768px) and (max-width: 991.98px) {
+                                                    .Team-Caption:hover .Team-social {
+                                                        opacity: 1;
+                                                        right: 85% !important;
+                                                    }
+                                                }
+                                                /* end Team */
+                                                /* start Team-2 */
+                                                
+                                                #Team-2 {
+                                                    background-color: #eff7f6;
+                                                }
+                                                
+                                                .Team-2-Caption h2 {
+                                                    font-size: 36px;
+                                                    font-weight: 300;
+                                                    margin-bottom: 20px;
+                                                    color: #21413c;
+                                                    font-family: 'Raleway', sans-serif;
+                                                }
+                                                
+                                                .Team-2-Caption p {
+                                                    color: #444444;
+                                                }
+                                                
+                                                .Team-2-text li a {
+                                                    font-family: "Poppins", sans-serif;
+                                                    font-size: 15px;
+                                                    line-height: 24px;
+                                                    font-weight: 800;
+                                                    color: #1bac91;
+                                                    text-decoration: none;
+                                                    transition: color 0.1s;
+                                                    -webkit-transition: color 0.1s;
+                                                    -moz-transition: color 0.1s;
+                                                    -ms-transition: color 0.1s;
+                                                    -o-transition: color 0.1s;
+                                                }
+                                                
+                                                .Team-2-text li a:hover {
+                                                    color: #51dac1;
+                                                }
+                                                
+                                                .Team-2-text ul span {
+                                                    color: #6ce4ce !important;
+                                                    font-size: 20px;
+                                                    padding-right: 3px;
+                                                }
+                                                
+                                                .Team-2-text li {
+                                                    margin-top: 15px !important;
+                                                }
+                                                
+                                                .Team-2-text ul {
+                                                    list-style-type: none;
+                                                }
+                                                
+                                                .color-a {
+                                                    color: black !important;
+                                                }
+                                                
+                                                .color-a-2 {
+                                                    transition: color 0.1s;
+                                                    -webkit-transition: color 0.1s;
+                                                    -moz-transition: color 0.1s;
+                                                    -ms-transition: color 0.1s;
+                                                    -o-transition: color 0.1s;
+                                                }
+                                                
+                                                .color-a-2:hover {
+                                                    color: #1bac91 !important;
+                                                }
+                                                
+                                                @media (max-width: 575.98px) {
+                                                    .Team-2-text li {
+                                                        width: 100% !important;
+                                                    }
+                                                }
+                                                
+                                                @media (min-width: 576px) and (max-width: 767.98px) {
+                                                    .Team-2-text li {
+                                                        width: 100% !important;
+                                                    }
+                                                }
+                                                
+                                                @media (min-width: 768px) and (max-width: 991.98px) {
+                                                    .Team-2-text li {
+                                                        width: 100% !important;
+                                                    }
+                                                }
+                                                /* end Team-2 */
+                                                /* start CONTACT */
+                                                
+                                                .CONTACT-h2-p h2 {
+                                                    font-size: 36px;
+                                                    font-weight: 300;
+                                                    margin-bottom: 20px;
+                                                    color: #21413c;
+                                                    font-family: 'Raleway', sans-serif;
+                                                }
+                                                
+                                                .CONTACT-h2-p p {
+                                                    color: #444444;
+                                                }
+                                                
+                                                .CONTACT-icon {
+                                                    overflow: auto;
+                                                }
+                                                
+                                                .CONTACT-icon i {
+                                                    float: left;
+                                                    font-size: 20px;
+                                                    color: #1bac91;
+                                                    margin-right: 1rem;
+                                                    width: 44px;
+                                                    height: 44px;
+                                                    border-radius: 50px;
+                                                    -webkit-border-radius: 50px;
+                                                    -moz-border-radius: 50px;
+                                                    -ms-border-radius: 50px;
+                                                    -o-border-radius: 50px;
+                                                    background-color: #e1f0ee;
+                                                    padding-top: 10px;
+                                                    transition: all 0.3s;
+                                                    -webkit-transition: all 0.3s;
+                                                    -moz-transition: all 0.3s;
+                                                    -ms-transition: all 0.3s;
+                                                    -o-transition: all 0.3s;
+                                                }
+                                                
+                                                .CONTACT-icon h4 {
+                                                    float: left;
+                                                    font-size: 22px;
+                                                    font-weight: 600;
+                                                    color: #21413c;
+                                                }
+                                                
+                                                .CONTACT-icon p {
+                                                    float: left;
+                                                    margin-bottom: 0;
+                                                    font-size: 14px;
+                                                    color: #43857a;
+                                                    padding: 0 0 0 60px;
+                                                }
+                                                
+                                                .CONTACT-icon i:hover {
+                                                    background: #1bac91;
+                                                    color: #fff;
+                                                }
+                                                
+                                                .CONTACT-icon {
+                                                    padding: 30px;
+                                                    width: 100%;
+                                                    background: #fff;
+                                                    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+                                                }
+                                                
+                                                .CONTACT-FORMS {
+                                                    width: 100%;
+                                                    padding: 30px;
+                                                    background: #fff;
+                                                    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+                                                }
+                                                
+                                                .custom {
+                                                    background-color: #1bac91;
+                                                    color: #ffffff;
+                                                    transition: all 0.3s;
+                                                    -webkit-transition: all 0.3s;
+                                                    -moz-transition: all 0.3s;
+                                                    -ms-transition: all 0.3s;
+                                                    -o-transition: all 0.3s;
+                                                }
+                                                
+                                                .custom:hover {
+                                                    background-color: #5ad3bd;
+                                                    color: #ffffff;
+                                                }
+                                                /* end CONTACT */
+                                                /* start Footer */
+                                                
+                                                #Footer {
+                                                    background: black;
+                                                    padding: 0 0 30px 0;
+                                                    color: #fff;
+                                                    font-size: 14px;
+                                                }
+                                                
+                                                .Footer-top {
+                                                    background: #0c1817;
+                                                    border-bottom: 1px solid #18302c;
+                                                    padding: 60px 0 30px 0;
+                                                }
+                                                
+                                                .Footer-info {
+                                                    margin-bottom: 30px;
+                                                }
+                                                
+                                                .Footer-info h3 {
+                                                    font-size: 24px;
+                                                    margin: 0 0 20px 0;
+                                                    padding: 2px 0 2px 0;
+                                                    line-height: 1;
+                                                    font-weight: 700;
+                                                }
+                                                
+                                                .Footer-info p {
+                                                    font-size: 14px;
+                                                    line-height: 24px;
+                                                    margin-bottom: 0;
+                                                    font-family: "Raleway", sans-serif;
+                                                    color: #fff;
+                                                }
+                                                
+                                                .Footer-info a {
+                                                    background: #1c3733;
+                                                    color: #fff;
+                                                    line-height: 1;
+                                                    padding: 8px 0;
+                                                    margin-right: 4px;
+                                                    border-radius: 50%;
+                                                    text-align: center;
+                                                    width: 36px;
+                                                    height: 36px;
+                                                    transition: 0.3s;
+                                                    -webkit-transition: 0.3s;
+                                                    -moz-transition: 0.3s;
+                                                    -ms-transition: 0.3s;
+                                                    -o-transition: 0.3s;
+                                                }
+                                                
+                                                .Footer-info a i {
+                                                    padding: 10px;
+                                                }
+                                                
+                                                .Footer-info a:hover {
+                                                    background-color: #51dac1;
+                                                }
+                                                
+                                                .Footer-links ul {
+                                                    list-style-type: none;
+                                                }
+                                                
+                                                .Footer-links li {
+                                                    padding: 8px 0px;
+                                                }
+                                                
+                                                .Footer-links li a {
+                                                    text-decoration: none;
+                                                    color: #ffffff;
+                                                    transition: color 0.3s;
+                                                    -webkit-transition: color 0.3s;
+                                                    -moz-transition: color 0.3s;
+                                                    -ms-transition: color 0.3s;
+                                                    -o-transition: color 0.3s;
+                                                }
+                                                
+                                                .Footer-links li i {
+                                                    color: #51dac1;
+                                                }
+                                                
+                                                .Footer-links li a:hover {
+                                                    color: #51dac1;
+                                                }
+                                                
+                                                .Footer-newsletter form {
+                                                    margin-top: 30px;
+                                                    position: relative;
+                                                    background: #fff;
+                                                    padding: 6px 10px;
+                                                    border-radius: 4px 0 0 4px;
+                                                    -webkit-border-radius: 4px 0 0 4px;
+                                                    -moz-border-radius: 4px 0 0 4px;
+                                                    -ms-border-radius: 4px 0 0 4px;
+                                                    -o-border-radius: 4px 0 0 4px;
+                                                }
+                                                
+                                                .Footer-newsletter form input[type="email"] {
+                                                    border: 0;
+                                                    padding: 4px;
+                                                    width: calc(100% - 110px);
+                                                }
+                                                
+                                                .Footer-newsletter form input[type="submit"] {
+                                                    position: absolute;
+                                                    top: 0;
+                                                    right: -4px;
+                                                    bottom: 0;
+                                                    border: 0;
+                                                    background: none;
+                                                    font-size: 16px;
+                                                    padding: 0 20px;
+                                                    background: #1bac91;
+                                                    color: #fff;
+                                                    transition: 0.3s;
+                                                    border-radius: 0 4px 4px 0;
+                                                    -webkit-border-radius: 0 4px 4px 0;
+                                                    -moz-border-radius: 0 4px 4px 0;
+                                                    -ms-border-radius: 0 4px 4px 0;
+                                                    -o-border-radius: 0 4px 4px 0;
+                                                }
+                                                
+                                                .Footer-newsletter form input[type="submit"]:hover {
+                                                    background-color: #1b8874;
+                                                }
+                                                
+                                                .Designed {
+                                                    font-size: 13px;
+                                                }
+                                                
+                                                .Designed a {
+                                                    text-decoration: none;
+                                                    color: #3db6a0;
+                                                }
+                                                
+                                                .Designed a:hover {
+                                                    color: #51dac1;
+                                                }
